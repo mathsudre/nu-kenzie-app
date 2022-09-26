@@ -1,0 +1,38 @@
+.containerNuHome{   
+    animation: zoomIn 2s;  
+}
+
+.logoKenzie{
+    margin-bottom: 31px;
+}
+
+.containerDescription{
+    min-width: 320px;
+    max-width: 347px;
+    height: 274px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.containerDescription h1{
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 48px;
+}
+
+.btnAll{
+    width: 241px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 19px;
+
+    background-color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}

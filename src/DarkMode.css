@@ -1,0 +1,50 @@
+
+.darkMode{
+    background-color: var(--grey-4);
+}
+
+/**HEADER**/
+.darkMode header{
+    background-color: var(--color-primary);
+}
+
+.darkMode header h2{
+    color: var(--grey-4);
+}
+
+.darkMode header span{
+    color: var(--grey-1);
+}
+
+
+/**FORM**/
+
+.darkMode form{
+    background-color: var(--grey-4);
+    color: var(--grey-1);
+}
+
+
+/**TOTAL MONEY **/
+.darkMode .containerTotalMoney p{
+    color: var(--grey-1);
+}
+
+.darkMode .containerTotalMoney > span{
+    color: var(--grey-1);
+}
+
+/**LISTA**/
+
+.darkMode .navContainerFinanças > h2{
+    color: var(--grey-1);
+}
+
+.darkMode .emptyCard{    
+    color: var(--grey-1);
+}
+
+.darkMode .containerCardFinances{
+    padding: 5px;    
+    border-radius: 8px;
+}

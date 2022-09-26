@@ -1,0 +1,67 @@
+
+
+.cardFinance{  
+    width: 100%;
+    height: 88px;
+
+    padding: 8px 13px 11px 14px;
+    margin-left: 3px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: var(--grey-1);
+
+    border-radius: 3px;
+    border-left: 4px solid var(--grey-2);
+
+    color: var(--grey-4);
+    animation: fadeInLeft 1s;
+}
+
+.borderGreen{
+    border-left: 4px solid var(--color-secondary);
+}   
+
+
+.cardFinance > span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+
+.cardFinanceDescription{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.cardFinanceDescription > p{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.spanCardPrice{
+    width: 156px;
+    height: 27px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.spanCardPrice > button{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
